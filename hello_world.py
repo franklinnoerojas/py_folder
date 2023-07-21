@@ -6,7 +6,7 @@ def hello_world(num_ejecuciones):
         for x in range(num_ejecuciones):
             now = datetime.datetime.now()
             print("Hello, World! La fecha es:", now)
-            time.sleep(2)
+            #time.sleep(2)
     except ValueError as e:
         print("Error:", e)
 
